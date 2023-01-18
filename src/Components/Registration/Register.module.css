@@ -1,0 +1,110 @@
+.container{
+    position: relative;
+    background-color: #242D34;
+    /* opacity: 0.5; */
+    height:650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    position: absolute;
+    width: 568px;
+    height: 600px;
+  border-radius: 1rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.mainContainer h1{
+    color: white;
+    font-size: 31px;
+    margin-top: 4rem;
+   
+}
+
+
+.CustomButton1{
+    width: 298px;
+    height: 38px;
+    font-size: 14px;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.CustomButton2{
+    width: 298px;
+    height: 38px;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.or{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    height: 50px;
+   
+}
+.formbtn{
+    width: 438.400px;
+    height: 50.6px;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 18px;
+  
+}
+.mainContainer{
+    margin-bottom: 0;
+    height: 100%;
+
+}
+.toggle h6{
+    margin-left: 20.5rem;
+    margin-top: 0.5rem; 
+    font-size: 15px;
+
+}
+.mainContainer .toggle{
+margin-left: 0;
+padding-left: 0px;
+}
+.toggle{
+    color:#1677B8;
+}
+.signupbtn p{
+    font-size: 13px;
+    color: gray;
+}
+.txt2{
+    color: white;
+    font-weight: 400;
+}
+.input1{
+    width: 438px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid; 
+    border-radius: 0.3rem;
+    
+}
+.input2{
+    width: 438px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
+    border-radius: 0.3rem;
+}
