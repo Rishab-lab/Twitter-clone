@@ -1,0 +1,58 @@
+.Main{
+    width: 100%; 
+    display: flex;
+}
+.container{
+    width: 26%;
+    height: 100%;
+   
+}
+
+.middleContainer{
+    width: 40%;
+}
+.rightContainer{
+    width:34%;
+    height: 100%;
+}
+/* .main::-webkit-scrollbar{
+    display: none;
+} */
+.icons{
+    display: none;
+}
+.mobiletweet{
+    display: none;
+}
+@media screen and (max-width: 450px){
+/* .container{
+    margin-left: 0;
+} */
+/* .Main{
+    margin-left: 0;
+} */
+.middleContainer{
+    width: auto;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    z-index: 999;
+    font-size: xx-large;
+    background-color: black;
+  }
+  .mobiletweet{
+    display: unset;
+    bottom: 0;
+    position: fixed;
+    margin-left: 80%;
+    width: 10%;
+    margin-bottom: 7rem;
+    border-radius: 50%;
+  }
+}

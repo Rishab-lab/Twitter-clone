@@ -1,0 +1,194 @@
+.container{
+   
+    background-color: #242D34;
+    /* opacity: 0.5; */
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+   
+    width: 35.6rem;
+    height: 37.6rem;
+    border-radius: 1rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.6rem
+}
+.mainContainer h1{
+    color: white;
+    font-size: 1.93rem;
+    margin-top: 4rem;
+   
+}
+.logo{
+    color: #fff; 
+    margin-top:0.25rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.CustomButton1{
+    width: 18.62rem;
+    height: 2.37rem;
+    font-size:0.875rem;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.CustomButton2{
+    width: 18.62rem;
+    height: 2.37rem;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 0.81rem;
+    outline: none;
+    border: none;
+}
+.or{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    height: 3.12rem;
+   
+}
+.formbtn{
+    width: 27.4rem;
+    height: 3.12rem;
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    margin-top: 1.5rem;
+    font-size: 18px;
+  
+}
+.mainContainer{
+    margin-bottom: 0;
+    height: 100%;
+
+
+}
+.toggle h6{
+    margin-left: 18.5rem;
+    margin-top: 0.5rem; 
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.mainContainer .toggle{
+margin-left: 0;
+padding-left: 0px;
+}
+.toggle{
+    color:#1677B8;
+}
+.signupbtn p{
+    font-size: 13px;
+    color: gray;
+    padding-top: 1rem;
+}
+.txt2{
+    color: white;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+.input1{
+    width: 438px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid; 
+    border-radius: 0.3rem ;
+    margin-bottom: 1rem;
+    
+}
+.input2{
+    width: 438px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border: 1px gray solid;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and  (max-width: 450px) {
+    .container{
+   
+        background-color: #242D34;
+        /* opacity: 0.5; */
+        height:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container1{
+   
+        /* width: 20.6rem; */
+        height: 100vh;
+        border-radius: 0rem;
+        background-color: #fc0a0a;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.6rem
+        
+    }
+    .mainContainer h1{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 68%;
+    }
+
+    .CustomButton1{
+        margin-top: 2rem;
+    }
+
+    .logo{
+        color: #fff; 
+        margin-top:0.50rem;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainContainer{
+        margin-bottom: 0;
+        height: 100%;
+    }
+
+    /* Create Your Account */
+
+    .container1{
+   
+        width: 35.6rem;
+        height: 100%;
+        background-color: #000000;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.6rem
+    }
+
+   .form{
+     padding-left: 14rem;
+     padding-right: 5rem;
+    }
+    
+  }

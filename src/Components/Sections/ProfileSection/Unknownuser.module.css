@@ -1,0 +1,48 @@
+.wrapper{
+    color: white;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    border: 1px rgb(60, 60, 60) solid;
+    gap: 1rem;
+   padding: 2rem;
+  }
+  .container1{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 1rem;
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #6A6F74;
+  }
+  .img{
+  padding-left: 4rem;
+  
+  }
+  .avatar{
+    z-index: -1;
+  }
+  .btn{
+    border-radius: 25px;
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: 1rem ;
+    background:none;
+    color: white;
+    border: 1px #6A6F74 solid;
+    font-weight: bold;
+    padding: 0.5rem 0.8rem;
+  }
+  @media screen and (max-width:450px) {
+    .wrapper{
+      height: auto;
+      width: 50rem;
+      
+    }
+    
+  }

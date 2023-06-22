@@ -1,0 +1,100 @@
+.feed__header {
+ 
+  top: 0;
+  /* background-color: #000; */
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  border-bottom: 1px rgb(60, 60, 60) solid;
+
+  padding: 0.93rem 1.25rem;
+}
+
+.feed__header h2 {
+  font-size: 1.25rem;
+  font-weight: 50rem;
+  color:white;
+}
+.innercontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  margin-top: 2rem;
+  z-index: 5;
+}
+.logo{
+  display: none;
+}
+.profile{
+  display: none;
+}
+.hii{
+  display: none;
+}
+@media screen and (max-width:450px) {
+ .feed__header{
+  width: 35rem;
+  height: auto;
+  
+ }
+ .innercontainer{
+  justify-content: space-between;
+  display: flex;
+ }
+ .home{
+  display: none;
+ }
+ .logo{
+  display: unset;
+ }
+ .Ava{
+  font-size: xx-large;
+  background-color: black;
+ 
+ }
+ .username{
+  background-color: black;
+  color: white;
+ }
+ .usermail{
+  background-color: black;
+  color: white;
+ }
+ 
+
+.profilebg{
+  background-color: black;
+}
+ .hii{
+  display: unset;
+  font-weight: 900;
+  background-color: black;  
+}
+.profilelogo{
+  width: 70px;
+  border-radius: 50%;
+}
+.profilelogoone{
+  width: 4rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+ 
+  
+}
+.mobileinner{
+  justify-content: space-between;
+  display: flex;
+  background-color: black;
+  color: white;
+  padding-top: 3rem;
+}
+.sideBottom{
+  background-color: black;
+  height: 80rem;
+  color:white;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+}
+
+}

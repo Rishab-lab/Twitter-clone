@@ -1,0 +1,25 @@
+.button{
+    width: 100%;
+    background-color: black;
+    color: aliceblue; 
+}
+.button:hover{
+   background-color: gray;
+}
+.dialog{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.btn{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 100%;
+}
+.textColor{
+    color: #fff;
+}
+.titletext{
+    color: #fff;
+}

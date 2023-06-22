@@ -1,0 +1,52 @@
+.Main{
+    width: 100%; 
+    display: flex;
+}
+.container{
+    width: 26%;
+    height: 100%;
+   
+}
+
+.middleContainer{
+    width: 40%;
+}
+.rightContainer{
+    width:34%;
+    height: 100%;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 450px){
+    .main{
+       
+      height: 100vh;
+      width: 0%;
+    }
+    /* Profile page  */
+    .middleContainer{
+     
+        width: auto;
+        height: auto;
+    }
+    
+   
+  }
+
+  @media screen and (max-width: 768px){
+    .main{
+       
+      height: 100vh;
+      width: 0%;
+    }
+    /* Profile page  */
+    .middleContainer{
+     
+        width: auto;
+        height: auto;
+    }
+    
+   
+  }
